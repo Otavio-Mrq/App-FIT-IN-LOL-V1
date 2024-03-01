@@ -1,0 +1,139 @@
+.linha{
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+.coluna{
+    padding: 0 10px;
+    float: left;
+}
+
+.col1{
+    width: 60px;
+}
+.col2{
+    width: 140px;
+}
+.col3{
+    width: 220px;
+}
+.col4{
+    width: 300px;
+}
+.col5{
+    width: 380px;
+}
+.col6{
+    width: 460px;
+}
+.col7{
+    width: 540px;
+}
+.col8{
+    width: 620px;
+}
+.col9{
+    width: 700px;
+}
+.col10{
+    width: 780px;
+}
+.col11{
+    width: 860px;
+}
+.col12{
+    width: 940px;
+}
+label{
+    display: block;
+}
+
+/*Design topo*/
+.header{
+    background: #dee3e6;
+}
+.logo{
+    align-items: center;
+    padding: 0px 5px;
+    display: inline;
+}
+
+.menu li{
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.menu li a:hover{
+    text-decoration: none;
+    background: #1f3c58;
+    color: #ebebeb;
+}
+ul.inline li,ol.inline li{
+    display: inline;
+    padding-top: 15px;
+    margin-right: 15px;
+}
+ul.inline li:last-child,ol.inline li:last-child{
+    margin-right: 0px;
+}
+.sem-marcador{
+    list-style: none;
+}
+
+.linha-vertical{
+    height: 500px;
+    border-left: 2px solid;
+}
+
+body.style{
+    width: -900px;
+    height: auto;
+}
+
+.fundo{
+     background-color: rgba(255, 238, 0, 0.548);
+}
+
+.h3, input, label,.botoes{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 5px 0px;
+    
+}
+.torres{
+    align-items: center;
+    color: black;
+}
+
+button{
+    
+    margin: 0 auto;
+    display: block;
+}
+h1 h2 h3 h4 h5{
+    text-align: center;
+    font-weight: 500;
+    margin: 15px 0px 10px 0px;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+    background: #1f3c58;
+    color: #ebebeb;
+    padding: 20px 0px;
+    text-align: center;
+    font-weight: 100;
+    }
+
+.coluna col12 fundo{
+    text-align: center;
+}
+section{
+    text-align: center;
+    
+}

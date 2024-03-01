@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Fit in Lol</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <script src="somar.js"></script>
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body style="background-image: url('img/nilah.jpg'); background-repeat: no-repeat;">
+        <div class="header">
+            <div class="linha">
+                <header>
+                    <div class="coluna col4">
+                        <img class="logo" src="img/lollogo.png">
+                        <h1 class="logo">FIT IN LOL</h1>
+                    </div>
+
+                </header>
+            </div>
+        </div>  
+        <div class="linha">
+            <section>
+                    <div class="coluna col12 fundo principal">
+                        <label for="torres">Torres Perdidas na sua Lane</label>
+                        <input class="torres" type="number" name="torres" min="0" max="11"><br> 
+                        
+                        <label for="vitoria">Venceu a Partida?</label>
+                        <input class="botoes" type="radio" name="venceu" value="Sim">Sim!
+                        <input class="botoes" type="radio" name="venceu" value="Não">Não...
+
+                        <label for="kda">Seu KDA ficou Negativo?</label>
+                        <input class="botoes" type="radio" name="kda" value="Sim">Sim...
+                        <input class="botoes" type="radio" name="kda" value="Não">Não!
+                        
+                        <label for="ff">Como foi o fim da partida?</label>
+                        <input class="botoes" type="radio" name="ff" value="desistencia">Desistencia
+                        <input class="botoes" type="radio" name="ff" value="recriacao">Recriação
+                        <input class="botoes" type="radio" name="ff" value="Normal">Normal
+                        <button onclick="clicar()">Calcular</button>
+ 
+            </section>  
+        </div>
+
+        <div class="linha">
+            <section>
+                   
+                    <div class="coluna col12 fundo">
+                        <h3 class="resultado1"></h3>
+                        <h3 class="resultado2"></h3>
+                        <h3 class="resultado3"></h3>
+                        <h3 class="resultado4"></h3>
+                       
+
+                    </div>  
+            </section>  
+        </div>
+        <footer>
+            <span>&copy; 2024 - Otávio Marques</span>
+                    
+        </footer>
+    </body>
+</html>
