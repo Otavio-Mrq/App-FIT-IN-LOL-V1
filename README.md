@@ -1,0 +1,1 @@
+A ideia começou a dois meses quando eu estava jogando league of legends e surgiu uma imagem que desafiava de acordo com o desempenho do jogador na partida a realizar uma certa quantidade de exercícios físicos, mas para calcular tudo era um processo demorado e entediante então surgiu a ideia de automatizar os calcúlos.
